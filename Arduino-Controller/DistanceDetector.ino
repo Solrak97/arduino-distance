@@ -7,7 +7,7 @@ uint8_t STATE = LOW;
 
 void setup()
 {
-  Serial.begin(9600);
+  
 }
 
 void loop()

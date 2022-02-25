@@ -18,7 +18,10 @@ struct Package
 };
 
 
-
+// Based on Arduino-Uno model specification
+// There is just one Serial communication port
+// yet, I'll make an attempt to support multiport 
+// architecture
 class Comm
 {
 private:
