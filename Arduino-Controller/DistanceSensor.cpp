@@ -1,6 +1,7 @@
 #include "DistanceSensor.h"
 
 DistanceSensor::DistanceSensor(int trigger, int echo)
+
 {
     this->TRIGGER = trigger;
     this->ECHO = echo;
